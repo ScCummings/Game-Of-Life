@@ -1,5 +1,6 @@
 #ifndef GRID_H
 #define GRID_H
+#include "Cell.h"
 class Grid
 {
 public:
@@ -8,8 +9,9 @@ public:
 	~Grid();
 	void calcNeighbors();
 	void displayGrid();
+	Cell** getBoard();
 private:
-	int ** board;
+	Cell** board;
 	int height;
 	int length;
 };
