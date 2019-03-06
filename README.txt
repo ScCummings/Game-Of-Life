@@ -6,7 +6,7 @@ Assignment 3 - Game of Life
 
 Source Files: Cell.cpp | Cell. h | Simulation.h | Simulation.cpp | Grid.h | Grid.cpp | GameOfLife.cpp
 
-No known compiler errors. If a user enters a higher height than length, the program breaks and throws a segmentation fault
+No known compiler errors or limitations.
 
 4) 
 https://www.learncpp.com/cpp-tutorial/112-basic-inheritance-in-c/
